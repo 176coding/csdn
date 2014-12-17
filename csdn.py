@@ -40,7 +40,7 @@ def get_back_csdn_jifen():
     lt = bs.find(attrs={'name': 'lt'})['value']
 
     # 请求参数
-    payload = {'username': '********', 'password': '***********', 'lt': lt, '_eventId': 'submit',
+    payload = {'username': '********', 'password': '****aaa*******', 'lt': lt, '_eventId': 'submit',
                'execution': execution}
     # make 请求
     req = session.post(login_url, data=payload, headers=headers)
